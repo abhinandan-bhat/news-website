@@ -1,0 +1,145 @@
+.jumbotron1{
+	background-color:#153449;
+	/*margin: 20px;*/
+	height:150px;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.jumbotron1 h1{
+	color: white;
+	text-align: left;
+	font-size:2.25cm;
+	padding-top: 30px;
+	
+}
+.jumbotron1 img{
+	width: 12%;
+    height:120px;
+	margin:20px;
+	float: left;
+	background-color:whitesmoke;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'Times New Roman', Times, serif;
+	background-image: url("download.jpg");
+}
+.NewsGrid img{
+    width:calc(100% - 20px);
+	height:250px;
+	margin: 10px;
+	box-shadow: 2px 10px 20px 0;
+}
+
+.NewsGrid{
+	margin:20px;
+	border:1px solid gray;
+	padding: 10px;
+	transition: 100ms;
+	background-color: white;
+	opacity: 0.85;
+	box-shadow: 5px 10px 23px 0;
+}
+.NewsGrid:hover{
+	transform: scale(1.1);
+	opacity:1;
+}
+.container-fluid{
+	width: 95%;
+}
+
+
+.bottomlinks a{
+    color: white;
+}
+.bottomlinks ul{
+    list-style: none;
+	padding: 0;
+}
+
+.footer{
+	background-color:#153449;
+	color: white;
+	box-sizing: border-box; 
+	/*margin: 20px;    */        /* so that header n footer are 100 % wide */
+}
+.footer .bottomlinks{
+	text-align: left;
+}
+ 
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;  /* so that automatically equal spaces is arranged between the links*/
+}
+form.example input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid lightgrey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+  }
+  form.example button {
+	float: right;
+	width: 20%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none; /* Prevent double borders */
+	cursor: pointer;
+  }
+  form.example button:hover {
+	background: #0b7dda;
+  }
+  * {
+	box-sizing: border-box;
+  }
+  form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+  }  
+  
+  
+  form #___gcse_0 .gsc-control-cse {
+
+    border-color: #FFFFFF;
+    background-color: #153449;
+    border: none;
+
+}
+
+form .gsc-search-button-v2 {
+    padding: 10px 27px;
+    }
+    
+    ul.nav{
+    width: 100%;
+    }
+    ul.nav li{
+    	min-width: 13%;
+    	text-transform: uppercase;
+    	text-align: center;
+    }
+    body .navbar-default .navbar-nav > li > a
+    {
+    color: #fff;
+    }
+    
+    .navbar-default{
+    background: #000;
+    border: none;
+    border-radius: 0px;
+    }
+    
+    
+    
+    
